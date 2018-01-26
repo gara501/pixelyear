@@ -1,0 +1,25 @@
+.separator {
+  background-color: $bg-2;
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+  flex-flow: row wrap;
+
+  p {
+    color: $color-white;
+    font-size: 1rem;
+    font-weight: 200;
+    line-height: 40px;
+    text-transform: uppercase;
+    text-align: center;
+    width: 60%;
+
+    @include tablet {
+      font-size: 2rem;
+    }
+    
+    span {
+      font-weight: 400;
+    }
+  }
+}
