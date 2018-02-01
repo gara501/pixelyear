@@ -3,11 +3,13 @@ import g from "glamorous"
 import Link from "gatsby-link"
 
 import { rhythm } from "../utils/typography"
+import Calendar from "../components/calendar";
 
 export default ({ data }) => {
   return (
     <div>
-
+      <h1>Mood Calendar</h1>
+      <Calendar></Calendar>
     </div>
   )
 }

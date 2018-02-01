@@ -1,8 +1,8 @@
 var plugins = [{
-      plugin: require('/Users/andresramirez/Sites/mood/node_modules/gatsby-plugin-glamor/gatsby-browser.js'),
+      plugin: require('/Users/gonzaloramirez/Sites/jscode/mood/pixelyear/node_modules/gatsby-plugin-glamor/gatsby-browser.js'),
       options: {"plugins":[]},
     },{
-      plugin: require('/Users/andresramirez/Sites/mood/node_modules/gatsby-plugin-typography/gatsby-browser.js'),
+      plugin: require('/Users/gonzaloramirez/Sites/jscode/mood/pixelyear/node_modules/gatsby-plugin-typography/gatsby-browser.js'),
       options: {"plugins":[],"pathToConfigModule":"src/utils/typography"},
     }]
 // During bootstrap, we write requires at top of this file which looks

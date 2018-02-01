@@ -1,8 +1,11 @@
 var plugins = [{
-      plugin: require('/Users/andresramirez/Sites/mood/node_modules/gatsby-plugin-glamor/gatsby-ssr.js'),
+      plugin: require('/Users/gonzaloramirez/Sites/jscode/mood/pixelyear/node_modules/gatsby-plugin-glamor/gatsby-ssr.js'),
       options: {"plugins":[]},
     },{
-      plugin: require('/Users/andresramirez/Sites/mood/node_modules/gatsby-plugin-typography/gatsby-ssr.js'),
+      plugin: require('/Users/gonzaloramirez/Sites/jscode/mood/pixelyear/node_modules/gatsby-plugin-google-fonts/gatsby-ssr.js'),
+      options: {"plugins":[],"fonts":["Anton","source sans"]},
+    },{
+      plugin: require('/Users/gonzaloramirez/Sites/jscode/mood/pixelyear/node_modules/gatsby-plugin-typography/gatsby-ssr.js'),
       options: {"plugins":[],"pathToConfigModule":"src/utils/typography"},
     }]
 // During bootstrap, we write requires at top of this file which looks like:
